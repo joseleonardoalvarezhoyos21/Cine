@@ -1,0 +1,22 @@
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #807B8A;;
+}
+.redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.redes ul{
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+.redes ul li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}

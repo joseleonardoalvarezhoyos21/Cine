@@ -1,0 +1,13 @@
+<div class="padre">
+    <div class="mini" *ngFor="let pelicula of descripcion">
+        <div class="conte" *ngIf="pelicula.idSec == idseccion">
+            <div class="centrar">
+                <img [src]="pelicula.url" width="200px"><br>
+                <h1>{{pelicula.nombre}}</h1>
+                <div class="suscribe1">
+                    <button (click)='verDetalles(pelicula.id)'>ver Detalles...</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

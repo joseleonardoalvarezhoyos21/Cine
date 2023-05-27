@@ -1,0 +1,28 @@
+
+.mini{
+    display: flex;
+    width: 285px;
+    background-color: #ffffff;
+    border-radius: 10px; 
+    
+}
+.centrar{
+    margin-left: 600px;
+    text-align: center;
+    
+}
+#conte{
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    
+}
+
+#conte{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+}
+
